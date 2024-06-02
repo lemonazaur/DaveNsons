@@ -1,0 +1,70 @@
+body{
+    background-color: coral;
+    background-image: url("assets/bg.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    font-family: "Roboto Light", serif;
+    font-size: calc(2vw + 10px);
+    margin: 0;
+}
+
+
+.break{
+    padding: 30px 0;
+    width: 100vw;
+    background-color: rgba(161, 43, 0, 0.7);
+}
+
+
+.logo{
+    height: 50vh;
+    width: 50vh;
+}
+
+p{
+    margin:0;
+}
+
+.start{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.about{
+    width: 100%;
+    background-color: #7a7a7a;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 50px 0;
+}
+
+h3{
+    margin: 0;
+}
+
+.services{
+    width: 100%;
+    background-color: #7a7a7a;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 50px 0;
+}
+
+.samples{
+    width: 100%;
+    background-color: #7a7a7a;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 50px 0;
+}
+
+.contactUs{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.67);
+    background-attachment: fixed;
+    margin: 0;
+    padding: 50px 0;
+}
