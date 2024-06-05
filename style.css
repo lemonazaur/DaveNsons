@@ -1,5 +1,16 @@
+/*
+DOCS FOLLOW HTML:
+1.BODY
+2.LOGO AND START
+3.ABOUT US
+4.SERVICES (AND IT'S COMPONENTS)
+5.STORIES (AND IT'S COMPONENTS)
+6.CONTACT US
+ */
+
+
 body{
-    background-color: #ffe6e6;
+    background-color: #fff1f1;
     color: black;
     text-align: center;
     font-family: "Apple Braille", serif;
@@ -9,7 +20,7 @@ body{
 
 .break{
     color: #fff1f1;
-    font-size: calc(3vw);
+    font-size: calc(3vmin);
     background-image: url("assets/break.jpeg");
     background-size: cover;
     background-attachment: fixed;
@@ -18,14 +29,53 @@ body{
     width: 100vw;
 }
 
+.logo{
+    max-height: 50vmin;
+    width: 50vmin;
+}
+
+.start {
+    background-image: url("assets/bg.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.about{
+    margin: 30px 0;
+}
+
 .services{
     display: flex;
     flex-wrap: wrap;
-
     flex: 1 0 50%;
-
     align-items: center;
     justify-content: center;
+}
+
+.box{
+    margin:10px;
+    padding: 20px;
+    box-shadow: 10px 10px 20px rgba(91, 91, 91, 0.72);
+    width: 30vw;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.box:hover{
+    padding: 20px 30px;
+    background-color: #e7e7e7;
+    transition: 0.3s;
+}
+
+.stories{
+    width: 100%;
+    margin: 0;
+    padding: 50px 0;
 }
 
 .storyBox{
@@ -45,49 +95,27 @@ body{
     border-radius: 20px;
 }
 
-
-.box{
-    margin:10px;
-    padding: 20px;
-    box-shadow: 10px 10px 20px rgba(91, 91, 91, 0.72);
-    width: 30vw;
-    background-color: #fff1f1;
-    border-radius: 10px;
-    transition: 0.3s;
-}
-
-.box:hover{
-    padding: 20px 30px;
-    background-color: #e7e7e7;
-    transition: 0.3s;
-}
-
-.logo{
-    height: 50vh;
-    width: 50vh;
-}
-
-.start{
-    background-image: url("assets/bg.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-}
-
-.stories{
-    width: 100%;
-    margin: 0;
-    padding: 50px 0;
-
-    background-color: #fff1f1;
-}
-
 .contactUs{
     display: flex;
-    background-color: #fff1f1;
+    justify-content: space-around;
     padding: 50px 0;
+}
+
+.contactUsInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+p{
+    margin: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+h1{
+    margin-top: 0;
 }
