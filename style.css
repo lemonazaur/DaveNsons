@@ -26,26 +26,40 @@ body{
 
     align-items: center;
     justify-content: center;
-
 }
 
 .storyBox{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
+    margin: 10px 40px;
+}
+
+.storyText{
+    width: 50vw;
 }
 
 .storyPic{
-    height: 90vh;
+    height: 70vmin;
+    border-radius: 20px;
 }
 
 
 .box{
     margin:10px;
     padding: 20px;
-    box-shadow: 0 0 20px rgba(91, 91, 91, 0.72);
+    box-shadow: 10px 10px 20px rgba(91, 91, 91, 0.72);
     width: 30vw;
     background-color: #fff1f1;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.box:hover{
+    padding: 20px 30px;
+    background-color: #e7e7e7;
+    transition: 0.3s;
 }
 
 .logo{
@@ -54,7 +68,6 @@ body{
 }
 
 .start{
-
     background-image: url("assets/bg.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -74,9 +87,7 @@ body{
 }
 
 .contactUs{
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.67);
-    background-attachment: fixed;
-    margin: 0;
+    display: flex;
+    background-color: #fff1f1;
     padding: 50px 0;
 }
