@@ -4,10 +4,10 @@ DOCS FOLLOW HTML:
 2.LOGO AND START
 3.ABOUT US
 4.SERVICES (AND IT'S COMPONENTS)
+5.RATINGS (AND IT'S COMPONENTS)
 5.STORIES (AND IT'S COMPONENTS)
 6.CONTACT US
- */
-
+*/
 
 body{
     background-color: #fff1f1;
@@ -71,6 +71,29 @@ body{
     background-color: #e7e7e7;
     transition: 0.3s;
 }
+
+
+.ratings{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+
+.ratingImg{
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.stars{
+    width: 250px;
+}
+
+
+
 
 .stories{
     width: 100%;
